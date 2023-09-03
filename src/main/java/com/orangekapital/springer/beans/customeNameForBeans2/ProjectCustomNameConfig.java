@@ -1,4 +1,4 @@
-package com.orangekapital.springer.beans.customeNameForBeans;
+package com.orangekapital.springer.beans.customeNameForBeans2;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;
