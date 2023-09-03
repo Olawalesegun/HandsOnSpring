@@ -1,4 +1,4 @@
-package com.orangekapital.springer.beans.noUniqueBeanDefinitionException;
+package com.orangekapital.springer.beans.noUniqueBeanDefinitionException3;
 
 public class RealEstate {
     private String estateName;
