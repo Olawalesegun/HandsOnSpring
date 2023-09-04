@@ -1,0 +1,5 @@
+<beans>
+    <bean id="vehicle" class="com.orangekapital.springer.beans.creatingBeansBasedOnConditionprogrammatically6.King">
+        <property name="name" value="Segun Olawale"/>
+    </bean>
+</beans>
