@@ -12,9 +12,16 @@ public class SpringerApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringerApplication.class, args);
     }
-    @GetMapping(/home)
+    @GetMapping("/home")
     public String sayHi(){
         return "Hello ";
+    }
+    @GetMapping("/greet")
+    public GetGreeting greet(){
+        return new GetGreeting("Hello Ekabo si ori eto, awa leto, eyin leto");
+    }
+
+    record GetGreeting(String greetMsg){
     }
 
 }
